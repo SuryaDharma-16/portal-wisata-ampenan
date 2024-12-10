@@ -1,8 +1,11 @@
 import React from 'react'
+import QrCode from '../Components/QrCode'
 
 const Scan = () => {
   return (
-    <div>Scan</div>
+    <>
+      <QrCode/>
+    </>
   )
 }
 

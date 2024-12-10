@@ -1,8 +1,14 @@
 import React from 'react'
+import Nav from '../Components/Nav'
+import Cta from '../Components/Cta'
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <>
+      <Nav/>
+      <Cta/>
+      <Cta/>
+    </>
   )
 }
 

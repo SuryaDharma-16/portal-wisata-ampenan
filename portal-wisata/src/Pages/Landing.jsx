@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../Components/Header'
+import WelcomeContent from '../Components/WelcomeContent'
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <>
+      <Header/>
+      <WelcomeContent/>
+    </>
   )
 }
 

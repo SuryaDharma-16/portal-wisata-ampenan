@@ -6,8 +6,14 @@ const Menu = () => {
   return (
     <>
       <Nav/>
-      <Cta/>
-      <Cta/>
+      <div className='flex flex-col items-center gap-4 my-24'>
+        <Cta
+        link='/Article'
+        lable='General Information'/>
+        <Cta
+        link='/PhotoSpot'
+        lable='Rekomendasi Spot Foto'/>
+      </div>
     </>
   )
 }

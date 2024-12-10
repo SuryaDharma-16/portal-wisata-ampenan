@@ -6,7 +6,12 @@ const Landing = () => {
   return (
     <>
       <Header/>
-      <WelcomeContent/>
+      <div className="my-24">
+        <WelcomeContent
+        location='Kota Tua Ampenan'
+        link='/Menu'
+        />
+      </div>
     </>
   )
 }

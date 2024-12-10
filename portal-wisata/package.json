@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://suryadharma-16.github.io/portal-wisata-ampenan/portal-wisata",
+  "homepage": "https://suryadharma-16.github.io/portal-wisata-ampenan/portal-wisata/src/main.jsx",
   
   "scripts": {
     "dev": "vite",
